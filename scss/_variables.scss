@@ -1,0 +1,23 @@
+// Variables
+
+// Gray and Brand Colors for use across theme
+
+$theme-primary:    #C62769;
+
+$yelow-base: #fec503 !default;
+$rojoSan-base: #7F0020 !default;
+$violeta-base: #e6003e !default;
+$blueOsc-base: #0d1e32 !default;
+$blueCla-base: #45c7d4 !default;
+$green-base: #93e925 !default;
+$white-base: #fff !default;
+$gris-base: #6a717b !default;
+
+$black-base:        #000 !default;
+$black-darker:	   lighten($black-base, 13.5%) !default; // #222
+$black-dark:	   lighten($black-base, 20%) !default;   // #333
+$black:			   lighten($black-base, 33.5%) !default; // #555
+$black-light:	   lighten($black-base, 46.7%) !default; // #777
+$black-lighter:	   lighten($black-base, 93.5%) !default; // #eee
+
+

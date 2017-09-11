@@ -1,0 +1,24 @@
+// fonts General
+
+@import url('../fonts/font-awesome/css/font-awesome.css');
+// iconos / http://fontawesome.io/;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+// font-family: 'Roboto', sans-serif;
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700,900,300');
+// font-family: 'Lato', sans-serif;
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300');
+// font-family: 'Open Sans', sans-serif;
+
+// Fonts mixin
+
+
+@mixin roboto-font() {
+    font-family: 'Roboto', sans-serif;
+}
+@mixin open-Sans-font() {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+@mixin lato-font() {
+    font-family: 'Raleway',Helvetica,Arial,cursive;
+}
