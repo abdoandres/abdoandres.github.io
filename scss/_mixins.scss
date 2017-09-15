@@ -300,3 +300,14 @@
         @content;
     }
 }
+// @include Animacion-flame(aniBtnLinea2 0.7s ease-out);
+@mixin Animacion-flame($animationFlame...) {
+    -webkit-animation: $animationFlame;
+         -z-animation: $animationFlame;
+         -o-animation: $animationFlame;
+            animation: $animationFlame;
+}
+
+// @Media
+
+$information-phone: "only screen and (max-width : 480px)";

@@ -51,53 +51,109 @@
                 </div>
             </div>
             <div class="col-12 align-self-center ">
-                <div class="boxAvatar">
-                  <div class="avatarImg"><img class=" img-fluid" src="images/avatar.png" alt=""></div>
-                </div>
-                <div class="avatarInfo"><h1>Abdo Andres Gonzalez B.</h1>
-                <p>Diseño UX</p>
+                <div class="contPrinAvatar">
+                    <div class="boxAvatar">
+                    <div class="avatarImg"><img class=" img-fluid" src="images/avatar.png" alt=""></div>
+                    </div>
+                    <div class="avatarInfo"><h1>Abdo Andres Gonzalez B.</h1>
+                    <p><span><</span> Diseñador UI/UX <span>/></span></p>
+                    </div>
                 </div>
             </div>
             <div class="col12 align-self-end">
                 <div class="navHeader">
-                    <nav class="navbar navbar-inverse navbar-toggleable-sm">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <ul class="nav nav-pills navTop-pill mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-perfil-tab" data-toggle="pill" href="#pills-perfil" role="tab" aria-controls="pills-perfil" aria-expanded="true">Perfil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" id="pills-portafolio-tab" data-toggle="pill" href="#pills-portafolio" role="tab" aria-controls="pills-portafolio" aria-expanded="true">Portafolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" id="pills-otros-tab" data-toggle="pill" href="#pills-otros" role="tab" aria-controls="pills-otros" aria-expanded="true">Otros</a>
                         </li>
+                        
                         </ul>
-                    </div>
-                    </nav>
-                <section>
+                </div>
             </div>
-        </div>
-    </div>
+       </div>
+   </div>
  </section>  
 </header>  
 
+
     <!-- Begin page content -->
     <section class="container">
-        <i class="fa fa-check"></i> fa-check
-         <p>Etiam quis malesuada nunc. Etiam non ligula a enim mattis placerat vitae non sem. Donec vulputate ligula nunc, interdum tempor nibh 
-         lacinia nec. Sed luctus suscipit rhoncus. Praesent commodo 
-         mauris vitae purus laoreet finibus. Donec dapibus justo vitae porttitor varius. Nulla ultricies porttitor 
-         blandit. Aliquam mattis malesuada eros ac cursus. Maecenas ut orci diam. Nullam tincidunt dictum sollicitudin. Mauris malesuada,
-          mi auctor tempus laoreet, nunc eros volutpat velit, in laoreet nibh diam ultrices tortor.</p>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-perfil" role="tabpanel" aria-labelledby="pills-perfil-tab">
+               informacion  
 
-<p>Quisque in volutpat felis. Nulla scelerisque tincidunt turpis ac faucibus. 
-Nunc eget tristique enim. Nullam malesuada malesuada fermentum. Mauris mi purus, 
-feugiat sit amet imperdiet a, fringilla vitae dui. In mattis dignissim dolor, 
-vitae ultricies quam efficitur in. In sit amet odio lectus. Pellentesque rhoncus sed sapien sed semper. </p>
+                
+            </div>
+            <div class="tab-pane fade" id="pills-portafolio" role="tabpanel" aria-labelledby="pills-portafolio-tab">
+               <!--informacion-->
+                    <nav class="nav nav-tabs" id="myTab" role="tablist">
+                        <a class="nav-item nav-link active" id="nav-web-tab" data-toggle="tab" href="#nav-web" role="tab" aria-controls="nav-web" aria-expanded="true">Web / Movil  </a>
+                        <a class="nav-item nav-link" id="nav-impresos-tab" data-toggle="tab" href="#nav-impresos" role="tab" aria-controls="nav-impresos">Impresos</a>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-web" role="tabpanel" aria-labelledby="nav-web-tab">
+
+                      <!--portafolio  -->
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-4 mb-4">
+                                <div class="card h-100 text-center">
+                                    <img class="card-img-top img-fluid" src="http://placehold.it/750x450" alt="">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Team Member</h4>
+                                        <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#">name@example.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 mb-4">
+                                <div class="card h-100 text-center">
+                                    <img class="card-img-top img-fluid" src="http://placehold.it/750x450" alt="">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Team Member</h4>
+                                        <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#">name@example.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 mb-4">
+                                <div class="card h-100 text-center">
+                                    <img class="card-img-top img-fluid" src="http://placehold.it/750x450" alt="">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Team Member</h4>
+                                        <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#">name@example.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <!--/portafolio  -->
+                            
+                        </div>
+                        <div class="tab-pane fade" id="nav-impresos" role="tabpanel" aria-labelledby="nav-impresos-tab">
+                            impresos
+                        </div>
+                    </div>
+                <!-- /informacion-->     
+            </div>
+            <div class="tab-pane fade" id="pills-otros" role="tabpanel" aria-labelledby="pills-otros-tab">   
+                otros
+            </div>
+        </div>
 
     </section>
 
