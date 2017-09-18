@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
 @import url("http://fonts.googleapis.com/css?family=Lato:400,700,900,300");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300");
-@import url('https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet');
+@import url("https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i");
 html,
 body {
   width: 100%;
@@ -457,10 +457,11 @@ body {
     z-index: 2;
     position: relative; }
   .avatarInfo p {
-    font-family: 'Lobster', cursive;
+    font-family: 'Arimo', sans-serif;
     text-align: right;
     color: #40db34;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-style: italic;
     padding: 3px 10px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 0 0 5px 5px;
@@ -468,7 +469,7 @@ body {
     position: relative; }
     .avatarInfo p span {
       color: #848484;
-      font-size: 1.2rem; }
+      font-size: 1.125rem; }
 
 .redes-top {
   z-index: 8;

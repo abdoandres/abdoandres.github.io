@@ -1,8 +1,6 @@
 .headerBox { 
 position: relative;
 margin-bottom: 30px;
-
-
 background:linear-gradient(5deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #2b9ef7,#1ddde8);// deg es el angulo de inclinacion /
 background-size: 1800% 1800%;
 
@@ -168,10 +166,11 @@ background-size: 1800% 1800%;
         position: relative;
     }
     p {
-        font-family: 'Lobster', cursive;
+        font-family: 'Arimo', sans-serif;
         text-align: right;
         color: #40db34;
-        font-size: 1.1rem;
+        font-size:  1rem;
+        font-style: italic;
         padding: 3px 10px;
         background: rgba(0, 0, 0, 0.7);
         border-radius:  0 0 5px 5px;
@@ -179,7 +178,7 @@ background-size: 1800% 1800%;
         position: relative;
         span {
             color: #848484;
-            font-size: 1.2rem;
+            font-size: 1.125rem;
         }
     }
 }
