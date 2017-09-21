@@ -100,44 +100,41 @@
                         <div class="tab-pane fade show active" id="nav-web" role="tabpanel" aria-labelledby="nav-web-tab">
 
                       <!--portafolio  -->
-                        <div class="row">
+                        <div class="row items-portafolio">
                             <div class="col-sm-6 col-lg-4 mb-4">
-                                <div class="card h-100 text-center">
-                                    <img class="card-img-top img-fluid" src="http://placehold.it/750x450" alt="">
+                                <div class="card card-portfolio ">
+                                    <img class="card-img-top img-fluid" src="images/small-img/apostol.jpg" alt="">
                                     <div class="card-block">
-                                        <h4 class="card-title">Team Member</h4>
-                                        <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a href="#">name@example.com</a>
+                                        <h4 class="card-title">Apostol</h4> 
+                                        <div class="card-ico">
+                                            <button type="button" class="btn-icoPort" data-toggle="modal" data-target="#exampleModalLong">
+                                              <i class="fa fa-mobile fa-lg"></i>
+                                            </button>
+                                            <a href="" class="btn-icoPort"><i class="fa fa-desktop "></i> </a>
+                                            <a href="" class="btn-icoPort"><i class="fa fa-link"></i> </a> 
+                                        </div>
+                                        <h6 class="card-subtitle mb-2 text-muted">Diseño,  Maquetacion</h6>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-lg-4 mb-4">
-                                <div class="card h-100 text-center">
-                                    <img class="card-img-top img-fluid" src="http://placehold.it/750x450" alt="">
+                                <div class="card card-portfolio h-100">
+                                    <img class="card-img-top img-fluid" src="images/small-img/aplica-cuadro.jpg" alt="">
                                     <div class="card-block">
                                         <h4 class="card-title">Team Member</h4>
-                                        <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+                                        <h6 class="card-subtitle mb-2 text-muted">Position</h6>                   
                                     </div>
-                                    <div class="card-footer">
-                                        <a href="#">name@example.com</a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                             <div class="col-sm-6 col-lg-4 mb-4">
-                                <div class="card h-100 text-center">
-                                    <img class="card-img-top img-fluid" src="http://placehold.it/750x450" alt="">
+                                <div class="card card-portfolio ">
+                                    <img class="card-img-top img-fluid" src="images/small-img/papel_planeta-cuadro.jpg" alt="">
                                     <div class="card-block">
                                         <h4 class="card-title">Team Member</h4>
                                         <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
                                     </div>
-                                    <div class="card-footer">
-                                        <a href="#">name@example.com</a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -167,7 +164,24 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/tether/tether.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/json-galery_portafolio.js"></script>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Apostol</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="cont-movil"> <div class="info-device"><img class="card-img-top img-fluid" src="images/movil-img/movil-apostol.jpg" alt=""></div></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 </body>
 

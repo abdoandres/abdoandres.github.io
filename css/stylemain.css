@@ -586,6 +586,52 @@ body {
 @keyframes aniBtnLinea2 {
   0% {
     width: 0%; } }
+.card-portfolio .card-block {
+  padding: 1rem; }
+  .card-portfolio .card-block .card-title {
+    display: inline-block;
+    color: #282828; }
+
+.card-ico {
+  float: right; }
+  .card-ico .btn-icoPort {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 2px 0;
+    color: #4B4C4C;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out; }
+  .card-ico .btn-icoPort:hover {
+    color: #727272;
+    border-radius: 50%;
+    border: 1px solid #727272; }
+
+.cont-movil {
+  background-image: url("../images/iphone.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  width: 265px;
+  padding-left: 5px;
+  padding-right: 5px;
+  max-height: 631px;
+  padding-top: 55px;
+  padding-bottom: 57px; }
+
+.info-device {
+  display: block;
+  height: 448px;
+  overflow-y: scroll; }
+
 .text-primary {
   color: #C62769 !important; }
 

@@ -1,0 +1,32 @@
+.card-portfolio {
+    .card-block {
+        padding: 1rem;
+        .card-title {
+            display: inline-block;
+            color: #282828;
+
+        }
+    }
+  
+}
+.card-ico {
+    float: right;
+    .btn-icoPort {
+        display: inline-block;
+        cursor:pointer;
+        font-size: 18px;
+        padding: 2px 0;
+        color: #4B4C4C;
+        border-radius:50%;
+        border:1px solid #fff;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+         @include transition(all 1s ease-in-out);
+    }
+    .btn-icoPort:hover {
+        color: #727272;
+        border-radius:50%;
+        border:1px solid #727272;
+    }
+}

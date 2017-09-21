@@ -1,0 +1,18 @@
+.cont-movil {
+        background-image: url("../images/iphone.png");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: inline-block;
+        width: 265px;
+        padding-left: 5px;
+        padding-right: 5px;
+        max-height: 631px;
+        padding-top: 55px;
+        padding-bottom: 57px;
+}
+.info-device {
+    display: block;
+    height: 448px;
+    overflow-y: scroll;
+}
