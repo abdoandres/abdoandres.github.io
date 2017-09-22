@@ -155,7 +155,7 @@ background-size: 1800% 1800%;
     margin-top: 15px;
     h1 {
         color: #fff;
-        border: 2px solid #fff;
+        border: 3px solid #fff;
         display: inline-block;
         padding: 5px 15px;
         font-size: 1.75rem;
@@ -168,16 +168,16 @@ background-size: 1800% 1800%;
     p {
         font-family: 'Arimo', sans-serif;
         text-align: right;
-        color: #40db34;
+        color: #438822;
         font-size:  1rem;
         font-style: italic;
         padding: 3px 10px;
-        background: rgba(0, 0, 0, 0.7);
+        background: rgba(30, 30, 30, 0.9);
         border-radius:  0 0 5px 5px;
         z-index: 2;
         position: relative;
         span {
-            color: #848484;
+            color: #C9C9C9;
             font-size: 1.125rem;
         }
     }

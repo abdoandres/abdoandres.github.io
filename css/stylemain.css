@@ -447,7 +447,7 @@ body {
   margin-top: 15px; }
   .avatarInfo h1 {
     color: #fff;
-    border: 2px solid #fff;
+    border: 3px solid #fff;
     display: inline-block;
     padding: 5px 15px;
     font-size: 1.75rem;
@@ -459,16 +459,16 @@ body {
   .avatarInfo p {
     font-family: 'Arimo', sans-serif;
     text-align: right;
-    color: #40db34;
+    color: #438822;
     font-size: 1rem;
     font-style: italic;
     padding: 3px 10px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(30, 30, 30, 0.9);
     border-radius: 0 0 5px 5px;
     z-index: 2;
     position: relative; }
     .avatarInfo p span {
-      color: #848484;
+      color: #C9C9C9;
       font-size: 1.125rem; }
 
 .redes-top {
@@ -631,6 +631,21 @@ body {
   display: block;
   height: 448px;
   overflow-y: scroll; }
+  .info-device:hover {
+    border: 2px solid #ccc;
+    cursor: n-resize; }
+
+.modal-info .modal-body {
+  text-align: center; }
+.modal-info .modal-header {
+  color: #fff;
+  font-size: 1.25rem;
+  text-shadow: 0px 2px 1px rgba(150, 150, 150, 0.72);
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.31);
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  padding: 5px 15px; }
 
 .text-primary {
   color: #C62769 !important; }
