@@ -74,7 +74,7 @@ var json = {
     }, {
             "name": "Tina & Tin",
             "name_descripcion": "Diseño, Maquetacion",
-            "modal_target_movil": "m-movil-tinaytin",
+            "modal_target_movil": "",
             "modal_target_desktop": "m-desktop-tinaytin",
             "link_site": "",
             "img_movil": "images/movil-img/movil-tinaytin.jpg",
@@ -105,12 +105,13 @@ $.each(json.shoppingItem,function()
 {
      output += '<div class="col-sm-6 col-lg-4 mb-4"> <div class="card card-portfolio "> <img class="card-img-top img-fluid" src="'+this.images+'" alt="'+this.name+'"> <div class="card-block"> <h4 class="card-title">'+this.name+'</h4>  <div class="card-ico"> <button type="button" class="btn-icoPort" data-toggle="modal" data-target="#'+this.modal_target_movil+'"> <i class="fa fa-mobile fa-lg"></i> </button> <button type="button" class="btn-icoPort" data-toggle="modal" data-target="#'+this.modal_target_desktop+'"><i class="fa fa-desktop "></i></button><a href="'+this.link_site+'"  target="_blank"  class="btn-icoPort link-bt"><i class="fa fa-link"></i> </a> </div><h6 class="card-subtitle mb-2 text-muted">'+this.name_descripcion+'</h6></div></div></div> ';
      output += ' <div class="modal fade" id="'+this.modal_target_movil+'" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true"> <div class="modal-dialog modal-sm modal-info" role="document"> <div class="modal-content"> <div class="modal-header"> <h5 class="modal-title" >'+this.name+'</h5> <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button> </div> <div class="modal-body"> <div class="cont-movil"> <div class="info-device"><img class="card-img-top img-fluid" src="'+this.img_movil+'" alt=""></div></div> </div> </div> </div> </div> ';
-     output += '<div class="modal fade" id="'+this.modal_target_desktop+'" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true"><div class="modal-dialog modal-sm modal-info" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" >'+this.name+'</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> </div><div class="modal-body"><div class="cont-movil"> <div class="info-device"><img class="card-img-top img-fluid" src="'+this.img_desktop+'" alt=""></div></div></div></div></div></div>';
+     output += '<div class="modal fade" id="'+this.modal_target_desktop+'" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true"><div class="modal-dialog modal-lg modal-info" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" >'+this.name+'</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> </div><div class="modal-body"><div class="cont-desktop"> <div class="info-device"><img class="card-img-top img-fluid" src="'+this.img_desktop+'" alt=""></div></div></div></div></div></div>';
 });
 $('.items-portafolio').append(output);
-// var els = document.getElementsByTagName("a[href='']");
+// oculta los iconos de informacion que no existe
 if ($('.card-ico')) {
     $('a[href=""]').hide();
+    $('button[data-target="#"]').hide();
 }
 /*
 <div class="col-sm-6 col-lg-4 mb-4">
