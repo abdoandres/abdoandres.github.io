@@ -452,22 +452,39 @@ body {
     padding: 5px 15px;
     font-size: 1.75rem;
     text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 0;
     z-index: 2;
     position: relative; }
   .avatarInfo p {
+    margin: 0px;
+    text-align: left;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.3); }
+  .avatarInfo h2 {
     font-family: 'Arimo', sans-serif;
     text-align: right;
-    color: #438822;
-    font-size: 1rem;
+    color: #47d302;
+    font-size: 1.2rem;
     font-style: italic;
-    padding: 3px 10px;
-    background: rgba(30, 30, 30, 0.9);
+    padding: 6px 10px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,1+59,0.65+100 */
+    background: -moz-linear-gradient(-45deg, transparent 0%, black 59%, rgba(0, 0, 0, 0.65) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, transparent 0%, black 59%, rgba(0, 0, 0, 0.65) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, transparent 0%, black 59%, rgba(0, 0, 0, 0.65) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */
     border-radius: 0 0 5px 5px;
     z-index: 2;
     position: relative; }
-    .avatarInfo p span {
+    .avatarInfo h2 span {
       color: #C9C9C9;
       font-size: 1.125rem; }
 
