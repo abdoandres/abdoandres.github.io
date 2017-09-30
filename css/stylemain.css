@@ -292,7 +292,7 @@ body {
 .avatarImg {
   max-width: 200px; }
   .avatarImg img {
-    border: 2px solid #fff;
+    border: 5px solid #fff;
     border-radius: 50%;
     overflow: hidden;
     position: absolute;
