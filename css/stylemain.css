@@ -632,6 +632,9 @@ body {
     border-radius: 50%;
     border: 1px solid #727272; }
 
+.logo-her {
+  max-width: 60px; }
+
 .cont-movil {
   background-image: url("../images/iphone.png");
   background-position: center top;
