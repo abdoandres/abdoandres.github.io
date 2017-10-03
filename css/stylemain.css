@@ -603,6 +603,19 @@ body {
 @keyframes aniBtnLinea2 {
   0% {
     width: 0%; } }
+.ed-img ul {
+  display: flex;
+  list-style: none;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding: 0px; }
+  .ed-img ul li {
+    max-width: 100px; }
+    .ed-img ul li img {
+      max-width: 80px; }
+  .ed-img ul li:last-child {
+    align-self: flex-end; }
+
 .card-portfolio .card-block {
   padding: 1rem;
   border-top: 1px dashed rgba(0, 0, 0, 0.3); }

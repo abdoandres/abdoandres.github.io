@@ -1,0 +1,18 @@
+.ed-img {
+    ul {
+        display: flex;
+        list-style: none;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        padding:0px;
+        li {
+         max-width: 100px;
+            img {
+                max-width: 80px
+            }
+         }
+        li:last-child {
+         align-self: flex-end;
+        }
+    }
+}
