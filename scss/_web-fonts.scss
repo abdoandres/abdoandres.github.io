@@ -12,7 +12,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i');
 // font-family: 'Arimo', sans-serif;
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext');
+// font-family: 'Montserrat', sans-serif;
 // Fonts mixin
 
 
@@ -24,4 +25,7 @@
 }
 @mixin lato-font() {
     font-family: 'Raleway',Helvetica,Arial,cursive;
+}
+@mixin montserrat-font() {
+    font-family: 'Montserrat', sans-serif;
 }

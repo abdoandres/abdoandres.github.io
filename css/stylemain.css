@@ -3,6 +3,7 @@
 @import url("http://fonts.googleapis.com/css?family=Lato:400,700,900,300");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300");
 @import url("https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext");
 html,
 body {
   width: 100%;
@@ -49,7 +50,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #2d3038;
+  margin-bottom: 1.2rem; }
 
 p {
   font-size: 16px;
@@ -451,20 +455,26 @@ body {
     display: inline-block;
     padding: 5px 15px;
     font-size: 1.75rem;
+    font-family: 'Roboto', sans-serif;
     text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
     margin-top: 0px;
     margin-bottom: 0;
     z-index: 2;
     position: relative; }
   .avatarInfo p {
-    margin: 0px;
-    text-align: left;
     color: #fff;
     font-family: 'Arimo', sans-serif;
     font-style: italic;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 600;
-    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.3); }
+    height: 2.45rem;
+    overflow: hidden;
+    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 3px;
+    margin-left: 15px; }
   .avatarInfo h2 {
     font-family: 'Arimo', sans-serif;
     text-align: right;
@@ -520,7 +530,7 @@ body {
   position: relative; }
 
 .navTop-pill {
-  font-size: 1.375rem;
+  font-size: 1.5rem;
   font-weight: bold; }
   .navTop-pill > li > a {
     color: #fff;
@@ -644,6 +654,16 @@ body {
     color: #727272;
     border-radius: 50%;
     border: 1px solid #727272; }
+
+.habi-box h5 {
+  margin-bottom: 5px; }
+.habi-box p {
+  margin: 0px; }
+.habi-box .progress-bar {
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 4px;
+  font-weight: bold; }
 
 .logo-her {
   max-width: 60px; }

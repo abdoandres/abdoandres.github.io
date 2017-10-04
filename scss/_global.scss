@@ -54,7 +54,10 @@ h3,
 h4,
 h5,
 h6 {
-    @include roboto-font;
+    @include montserrat-font;
+    font-weight: 700;
+    color: #2d3038;
+    margin-bottom: 1.2rem;
 }
 
 p {
