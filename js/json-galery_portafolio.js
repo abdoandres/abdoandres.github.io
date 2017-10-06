@@ -72,6 +72,15 @@ var json = {
             "img_desktop": "images/desktop-img/desktop-sindominio.jpg",
             "images": "images/small-img/cuadro-sindominio.jpg"
     }, {
+            "name": "Dogman",
+            "name_descripcion": "Diseño, Maquetacion",
+            "modal_target_movil": "m-movil-dogman",
+            "modal_target_desktop": "m-desktop-dogman",
+            "link_site": "http://www.dogman.com.co/",
+            "img_movil": "images/movil-img/movil-dogman.jpg",
+            "img_desktop": "images/desktop-img/desktop-dogman.jpg",
+            "images": "images/small-img/cuadro-dogman.jpg"
+    }, {
             "name": "Tina & Tin",
             "name_descripcion": "Diseño, Maquetacion",
             "modal_target_movil": "",
