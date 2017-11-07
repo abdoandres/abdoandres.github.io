@@ -1,1 +1,29 @@
-
+// study
+.infoStudy-U {
+     @include flexbox();
+     @include flex-wrap(wrap);    
+     border: 1px dashed #ccc;
+     padding: 10px;
+     border-radius: 10px;
+     max-width: 100%;
+     margin-bottom: 20px;
+     @include box-shadow (7px, 7px, 1px, 0px, rgba(50, 50, 50, 0.75), false);
+ img {
+     border-radius: 50%;
+     max-width: 150px;
+     border: 2px solid #d2d2d2;
+    @include box-shadow(0, 5px, 5px, 0, rgba(50, 50, 50, 0.10), false);
+ }
+ h2 {
+   font-size: 2rem;
+   font-weight:normal;
+   color:#545454;
+   line-height: 1;
+     strong {
+        font-size: 2.7rem;
+        color:#2e2e2e;
+        border-bottom: 2px solid #ff1138;
+     }
+ }
+}
+// study
