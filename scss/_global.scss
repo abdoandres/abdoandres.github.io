@@ -31,8 +31,9 @@ body > .container {
 
 hr {
     // max-width: 50px;
-    border-width: 3px;
-    border-color:#ccc;;
+    border-width: 2px;
+    border-color:#ccc;
+    border-style: dotted;
 }
 
 hr.light {
