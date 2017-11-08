@@ -1,0 +1,23 @@
+.ul-Info {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    li {
+        padding: 8px 16px;
+        border-bottom: 1px solid #ddd;
+        i {
+            background: #4898e1;;
+            border: 1px solid #0d5ba4;
+            border-radius: 50%;
+            color:#fff;
+            font-size: 1rem;
+            display: inline-block;
+            padding-top:5px;
+            height: 30px;
+            text-align: center;
+            margin-right: 10px;
+            vertical-align: middle;
+            width: 30px;
+        }
+    }
+}
