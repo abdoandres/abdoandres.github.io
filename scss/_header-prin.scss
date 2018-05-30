@@ -43,7 +43,7 @@ background-size: 1800% 1800%;
 //  header info
 .infoHeader {
     @include flexbox;
-    min-height:60vh;
+    min-height:55vh;
     overflow: hidden;
     justify-content: center; /* align items vertically, in this case */
     align-items: center; /* align items horizontally, in this case */
@@ -159,7 +159,6 @@ background-size: 1800% 1800%;
         display: inline-block;
         padding: 5px 15px;
         font-size: 1.75rem;
-        @include roboto-font;
         text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
         margin-top: 0px;
         margin-bottom: 0;
@@ -168,11 +167,10 @@ background-size: 1800% 1800%;
     }
     p {
         color:#fff;
-        font-family: 'Arimo', sans-serif;
         font-style: italic;
         font-size: 2.5rem;
         font-weight: 600;
-        height: 2.45rem;
+        height: 2.6rem;
         overflow: hidden;
         text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.3);
         text-align: left;
@@ -182,21 +180,14 @@ background-size: 1800% 1800%;
         margin-left: 15px;
     }
     h2 {
-        font-family: 'Arimo', sans-serif;
         text-align: right;
         color: #47d302;
+        background: #1e1e1e;
         font-size:  1.2rem;
         font-style: italic;
-        padding: 6px 10px;
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,1+59,0.65+100 */
-background: -moz-linear-gradient(-45deg,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 59%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 59%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 59%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-
-
-        border-radius:  0 0 5px 5px;
+        font-weight: normal;
+        padding: 10px 10px;
+        border-radius:  0 0 3px 3px;
         z-index: 2;
         position: relative;
         span {

@@ -15,8 +15,13 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext');
 // font-family: 'Montserrat', sans-serif;
 // Fonts mixin
+@mixin main-font() {
+     @include roboto-font;
+}
 
-
+@mixin second-font() {
+     @include lato-font;
+}
 @mixin roboto-font() {
     font-family: 'Roboto', sans-serif;
 }
@@ -24,8 +29,10 @@
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 @mixin lato-font() {
-    font-family: 'Raleway',Helvetica,Arial,cursive;
+    font-family: 'Lato', sans-serif;;
 }
+
 @mixin montserrat-font() {
     font-family: 'Montserrat', sans-serif;
 }
+
