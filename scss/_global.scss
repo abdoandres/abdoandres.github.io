@@ -61,6 +61,38 @@ h6 {
     color: #2d3038;
     margin-bottom: 1.2rem;
 }
+.tituPrin {
+  color: $red-base;
+  font-size: 2rem;
+  position: relative;
+  margin-top: 1.5rem;
+//   left: -27px;
+  &--C-Yellow {
+    color: $yelow-base;
+  &:after {
+    content: url(../images/lineaTexto-b.svg);
+    position: absolute;
+    bottom: -15px;
+  }
+  &:before {
+    content: url(../images/lineaTexto-T.svg);
+    left: 2px;
+    top: -22px;
+    position: relative;
+  }
+  }
+  &:after {
+    content: url(../images/lineaTexto-b.svg);
+    position: absolute;
+    bottom: -15px;
+  }
+  &:before {
+    content: url(../images/lineaTexto-T.svg);
+    left: 2px;
+    top: -22px;
+    position: relative;
+  }
+}
 
 p {
     font-size: 16px;
@@ -79,23 +111,26 @@ p {
     @include button-variant-gene(#000 , $white-base, $white-base, 5px, 14px);
 }
 .btn-AppF {
-    @include button-variant-gene(#fff, #000, $white-base, 2px, 20px);
+    @include button-variant-gene(#fff, #000, $white-base, 5px, 1.25rem);
 }
 .btn-enviar {
-    @include button-variant-gene(#fff, #000, #000, 2px, 20px);
+    @include button-variant-gene(#fff, #000, #000, 5px, 1.25rem);
 }
 .btn-cancelar {
-    @include button-variant-gene(#000, #fff, #fff, 2px, 20px);
+    @include button-variant-gene(#000, #fff, #fff, 5px, 1.25rem);
 }
 .btn-AppIn {
-    @include button-variant-gene(#000 !important, #fff, $white-base, 5px, 21px);
+    @include button-variant-gene(#000 !important, #fff, $white-base, 5px, 1.25rem);
     padding: 9px 48px 9px ;
 }
 .btn-termino {
-    @include button-variant-gene(#fff, transparent, $white-base, 5px, 12px);
+    @include button-variant-gene(#fff, transparent, $white-base, 5px,  0.75rem);
     padding: 5px ;
 }
-
+.btn-general {
+     @include button-variant-gene(#fff, $blue-base, #000, 5px, 1.375rem);
+     padding: 5px 20px;
+}
 // botones secundarios
 .bg-dark {
     color: white;
@@ -155,6 +190,9 @@ body {
       font-size: 14px;
     }
 }
-
-
+.marTop--max {
+}
+.bg-info {
+    background:linear-gradient(to right, lighten($black-base, 10%) , $black-base);
+}
 

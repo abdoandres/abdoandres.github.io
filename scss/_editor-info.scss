@@ -7,12 +7,20 @@
         padding:0px;
         li {
          max-width: 100px;
+         margin: 0 7px;
             img {
-                max-width: 80px
+                max-width: 45px
             }
          }
         li:last-child {
          align-self: flex-end;
         }
     }
+}
+.box-her {
+    background-color: #F7F7F7;
+    padding: 20px;
+    border-radius: 5px;
+    border:1px dashed #9B9B9B;
+    margin: 20px 25px 0px;
 }

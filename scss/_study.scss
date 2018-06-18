@@ -35,3 +35,52 @@
  }
 }
 // study
+.infoStudy-U2 {
+    margin-left: 28px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    .card-title {
+        font-size: 2rem;
+        color: lighten($black-base, 10%);
+        margin-bottom: 5px;
+        strong {
+            font-size: 3rem;
+            color: $black-base;
+        }
+    }
+    .card-text {
+        font-size:1.125rem;
+        color: #fff;
+        background: $red-base;
+        padding: 3px 7px;
+        display: inline-block;
+        max-width: 315px;
+        width: 100%;
+    }
+}
+.box-info__study {
+    padding-top: 2.5rem;
+ }
+.img-computer {
+    position: relative;
+    top: -80px
+}
+// courses
+.box-courses {
+    h2 {
+        background-color: $yelow-base;
+        padding: 5px 15px;
+        font-size: 1.375rem;
+        color: $black-base;
+        margin-bottom: 0;
+        display: inline-block;
+    }
+    p {
+        background-color: $white-base;
+        padding: 10px 15px;
+        color: $black-base;
+        span {
+            background-color: lighten($yelow-base, 9.2%);
+        }
+    }
+}

@@ -1,23 +1,101 @@
 .ul-Info {
     list-style-type: none;
     padding: 0;
+    padding-bottom: 10px;
     margin: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px dashed #ddd;
     li {
-        padding: 8px 16px;
-        border-bottom: 1px solid #ddd;
+        padding: 10px 0px 10px 24px;
+        font-size: 1rem;
         i {
-            background: #4898e1;;
-            border: 1px solid #0d5ba4;
-            border-radius: 50%;
-            color:#fff;
-            font-size: 1rem;
+            color:#727272;
+            font-size:  1.375rem;
             display: inline-block;
-            padding-top:5px;
             height: 30px;
             text-align: center;
             margin-right: 10px;
             vertical-align: middle;
             width: 30px;
         }
+    }
+}
+
+.info--princ {
+    background-color: $yelow-base;
+    border-radius: 2px;
+    padding: 35px 40px;
+    margin-left: 50px;
+    position: relative;
+    &:after {
+        content: "";
+        width: 0; 
+        height: 0; 
+        border-left:20px solid transparent;
+        border-right:20px solid transparent;
+        border-top:25px solid $yelow-base;
+        position: absolute;
+        bottom: -20px; 
+        right:20px; 
+    }
+}
+.logo-personal {
+    background:#fff;
+    padding: 12px; 
+    position: absolute;
+    top: -25px;
+    left: -45px;
+    border-radius: 50%;
+    img {
+        max-width: 55px;
+    }
+ }
+ 
+ .box-download {
+     margin-left: 30px;
+     p {
+         margin-bottom: 5px;
+     }
+ }
+ .bg-study {
+     background-color: rgba(235,234,234,0.5);
+     background-image: url("../images/bg-study.png");
+     background-position: center;
+ }
+ .bg-courses {
+     background-color: rgba(0,0,0, 1);
+     background-image: url("../images/bg-courses.png");
+     background-position: center;
+     background-attachment: fixed;
+     background-size: contain;
+     background-repeat: no-repeat;
+ }
+.mt {
+    &--80 {
+        margin-top:5rem;
+    }
+
+}
+.mb {
+    &--80 {
+        margin-bottom:5rem;
+    }
+}
+
+.pt {
+    &--40 {
+        padding-top:2.5rem;
+    }
+    &--60 {
+        padding-top:3.75rem;
+    }
+
+}
+.pb {
+    &--40 {
+        padding-bottom:3.75rem;
+    }
+    &--60 {
+        padding-bottom:3.75rem;
     }
 }
