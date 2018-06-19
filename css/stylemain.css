@@ -200,11 +200,11 @@ p {
   .btn-termino:focus, .btn-termino.focus {
     color: #fff;
     border-color: #bfbfbf;
-    background-color: transparent; }
+    background-color: rgba(0, 0, 0, 0); }
   .btn-termino:active, .btn-termino:hover {
     color: #fff;
     border-color: #e0e0e0;
-    background-color: transparent; }
+    background-color: rgba(0, 0, 0, 0); }
   .btn-termino i {
     font-size: 0.75rem;
     padding-right: 5%; }
@@ -482,7 +482,7 @@ body {
 @-webkit-keyframes stretch {
   0% {
     transform: scale(0.3);
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 100%; }
   50% {
     background-color: rgba(0, 0, 0, 0.2);
@@ -494,7 +494,7 @@ body {
 @-moz-keyframes stretch {
   0% {
     transform: scale(0.3);
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 100%; }
   50% {
     background-color: rgba(0, 0, 0, 0.2);
@@ -506,7 +506,7 @@ body {
 @-o-keyframes stretch {
   0% {
     transform: scale(0.3);
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 100%; }
   50% {
     background-color: rgba(0, 0, 0, 0.2);
@@ -518,7 +518,7 @@ body {
 @keyframes stretch {
   0% {
     transform: scale(0.3);
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 100%; }
   50% {
     background-color: rgba(0, 0, 0, 0.2);
@@ -530,7 +530,7 @@ body {
 @-webkit-keyframes stretch2 {
   0% {
     transform: scale(0.3);
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 100%; }
   50% {
     background-color: rgba(0, 0, 0, 0.2);
@@ -542,7 +542,7 @@ body {
 @-moz-keyframes stretch2 {
   0% {
     transform: scale(0.3);
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 100%; }
   50% {
     background-color: rgba(0, 0, 0, 0.2);
@@ -554,7 +554,7 @@ body {
 @-o-keyframes stretch2 {
   0% {
     transform: scale(0.3);
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 100%; }
   50% {
     background-color: rgba(0, 0, 0, 0.2);
@@ -566,7 +566,7 @@ body {
 @keyframes stretch2 {
   0% {
     transform: scale(0.3);
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 100%; }
   50% {
     background-color: rgba(0, 0, 0, 0.2);
@@ -654,8 +654,11 @@ body {
   position: relative; }
 
 .navTop-pill {
-  font-size: 1.75rem;
-  font-weight: bold; }
+  font-size: 1.625rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-top: 1rem; }
   .navTop-pill > li > a {
     color: #fff;
     border-radius: 0px;
@@ -695,36 +698,37 @@ body {
 .navTop-pill .nav-item.show .nav-link, .navTop-pill .nav-link.active {
   color: #fff;
   cursor: default;
-  background-color: rgba(0, 0, 0, 0.1); }
+  background-color: rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid #fff; }
 
 @-webkit-keyframes aniBtnLinea {
   0% {
     width: 50%;
-    background-color: transparent; }
+    background-color: rgba(255, 255, 255, 0); }
   100% {
     width: 100%;
-    background-color: black; } }
+    background-color: white; } }
 @-moz-keyframes aniBtnLinea {
   0% {
     width: 50%;
-    background-color: transparent; }
+    background-color: rgba(255, 255, 255, 0); }
   100% {
     width: 100%;
-    background-color: black; } }
+    background-color: white; } }
 @-o-keyframes aniBtnLinea {
   0% {
     width: 50%;
-    background-color: transparent; }
+    background-color: rgba(255, 255, 255, 0); }
   100% {
     width: 100%;
-    background-color: black; } }
+    background-color: white; } }
 @keyframes aniBtnLinea {
   0% {
     width: 50%;
-    background-color: transparent; }
+    background-color: rgba(255, 255, 255, 0); }
   100% {
     width: 100%;
-    background-color: black; } }
+    background-color: white; } }
 @-webkit-keyframes aniBtnLinea2 {
   0% {
     width: 0%; } }
@@ -737,6 +741,12 @@ body {
 @keyframes aniBtnLinea2 {
   0% {
     width: 0%; } }
+@media screen and (max-width: 500px) {
+  .navTop-pill {
+    font-size: 1.125rem; }
+
+  .navTop-pill .nav-link {
+    padding: .1em 0.5em; } }
 .ed-img ul {
   display: flex;
   list-style: none;
